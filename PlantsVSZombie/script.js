@@ -120,8 +120,6 @@ function count(){
 }
 
 function loop(){
-  console.log("Running")
-
   sunTEXT.setAttribute("value",`: ${s.toFixed(0)}`);
   level.setAttribute("value",`Level: ${currentLevel}`)
   
