@@ -1,0 +1,11 @@
+Model Information:
+* title:	Foxy (fnaf ar)
+* source:	https://sketchfab.com/3d-models/foxy-fnaf-ar-a567ead6b5614dc0b3cbc80b5d8dc6ad
+* author:	Shadow-Drop (https://sketchfab.com/dashr-lol)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Foxy (fnaf ar)" (https://sketchfab.com/3d-models/foxy-fnaf-ar-a567ead6b5614dc0b3cbc80b5d8dc6ad) by Shadow-Drop (https://sketchfab.com/dashr-lol) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

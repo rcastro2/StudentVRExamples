@@ -1,0 +1,11 @@
+Model Information:
+* title:	FNAF AR Freddy Fazbear
+* source:	https://sketchfab.com/3d-models/fnaf-ar-freddy-fazbear-f6e019333d694cbfbb2f3fbc9e791763
+* author:	OrangeSauceu (https://sketchfab.com/orangesauceu)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FNAF AR Freddy Fazbear" (https://sketchfab.com/3d-models/fnaf-ar-freddy-fazbear-f6e019333d694cbfbb2f3fbc9e791763) by OrangeSauceu (https://sketchfab.com/orangesauceu) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	FlashLight Texured
+* source:	https://sketchfab.com/3d-models/flashlight-texured-3f453d7158c34215842f4c1fe8ee512d
+* author:	kayla.n.harding (https://sketchfab.com/kayla.n.harding)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FlashLight Texured" (https://sketchfab.com/3d-models/flashlight-texured-3f453d7158c34215842f4c1fe8ee512d) by kayla.n.harding (https://sketchfab.com/kayla.n.harding) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
