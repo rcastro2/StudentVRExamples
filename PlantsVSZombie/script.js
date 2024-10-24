@@ -135,11 +135,7 @@ function loop(){
     for(let zombie of zombies){
       zombie.walk();
       if(distance(mower.obj,zombie.obj)<2){
-        try{
-          zombie.obj.remove();
-        }catch(e){
-
-        }
+        zombie.obj.remove();
         zombie.visible = false;
         mower.mow = true;
         currentDead++;
@@ -166,12 +162,7 @@ function loop(){
         if(wallnut.health.toFixed(0) == 0){
           wallnut.eaten = true;
           wallnut.visible = false;
-          try{
-            wallnut.obj.remove();
-          }catch(e){
-
-          }
-          
+          wallnut.obj.remove();
           zombie.eating = false;
         }
       }
@@ -189,12 +180,7 @@ function loop(){
         if(peashooter.health.toFixed(0) == 0){
           peashooter.eaten = true;
           peashooter.visible = false;
-          try{
-            peashooter.obj.remove();
-          }catch(e){
-
-          }
-          
+          peashooter.obj.remove();
           zombie.eating = false;
         }
       }
@@ -212,12 +198,7 @@ function loop(){
         if(sunflower.health.toFixed(0) == 0){
           sunflower.eaten = true;
           sunflower.visible = false;
-          try{
-            sunflower.obj.remove();
-          }catch(e){
-
-          }
-          
+          sunflower.obj.remove();
           zombie.eating = false;
         }
       }
@@ -237,12 +218,7 @@ function loop(){
         peashooter.pea.count = 0;
         zombie.health--;
         if(zombie.health == 0){
-          try{
-            zombie.obj.remove()
-          }catch(e){
-            
-          }
-          
+          zombie.obj.remove()
           zombie.visible = false;
           currentDead++;
         }
