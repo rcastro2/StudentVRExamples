@@ -16,12 +16,12 @@ window.onload = function(){
   level = document.getElementById("level");
 
   //TREES
-  for(let i = 0; i < 100; i++){
+  for(let i = 0; i < 50; i++){
     let x = rnd(-80,-14);
     let z = rnd(-100,70);
     trees.push(new Tree(x, z));
   }
-  for(let i = 0; i < 100; i++){
+  for(let i = 0; i < 50; i++){
     let x = rnd(17,80);
     let z = rnd(-100,70);
     trees.push(new Tree(x, z));
@@ -38,7 +38,7 @@ window.onload = function(){
   }
 
   //TOMBSTONES
-  for(let i = 0; i < 100; i++){
+  for(let i = 0; i < 50; i++){
     let x = rnd(-6.5,11.5);
     let z = rnd(-69, -50);
     stones.push(new Tombstone(x, z));
@@ -135,7 +135,11 @@ function loop(){
     for(let zombie of zombies){
       zombie.walk();
       if(distance(mower.obj,zombie.obj)<2){
-        zombie.obj.remove();
+        try{
+          zombie.obj.remove();
+        }catch(e){
+
+        }
         zombie.visible = false;
         mower.mow = true;
         currentDead++;
@@ -162,7 +166,12 @@ function loop(){
         if(wallnut.health.toFixed(0) == 0){
           wallnut.eaten = true;
           wallnut.visible = false;
-          wallnut.obj.remove();
+          try{
+            wallnut.obj.remove();
+          }catch(e){
+
+          }
+          
           zombie.eating = false;
         }
       }
@@ -180,7 +189,12 @@ function loop(){
         if(peashooter.health.toFixed(0) == 0){
           peashooter.eaten = true;
           peashooter.visible = false;
-          peashooter.obj.remove();
+          try{
+            peashooter.obj.remove();
+          }catch(e){
+
+          }
+          
           zombie.eating = false;
         }
       }
@@ -198,7 +212,12 @@ function loop(){
         if(sunflower.health.toFixed(0) == 0){
           sunflower.eaten = true;
           sunflower.visible = false;
-          sunflower.obj.remove();
+          try{
+            sunflower.obj.remove();
+          }catch(e){
+
+          }
+          
           zombie.eating = false;
         }
       }
@@ -218,7 +237,12 @@ function loop(){
         peashooter.pea.count = 0;
         zombie.health--;
         if(zombie.health == 0){
-          zombie.obj.remove()
+          try{
+            zombie.obj.remove()
+          }catch(e){
+            
+          }
+          
           zombie.visible = false;
           currentDead++;
         }
